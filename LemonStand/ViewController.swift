@@ -182,8 +182,7 @@ class ViewController: UIViewController {
             }
             else {
                 println("no match, no revenue")
-            }
-        }
+            }        }
         
         lemonsToPurchase = 0
         iceCubesToPurchase = 0
