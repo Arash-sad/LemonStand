@@ -13,6 +13,8 @@
 		5BAD944F19D03C3E00FED3C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD944E19D03C3E00FED3C8 /* Images.xcassets */; };
 		5BAD945219D03C3E00FED3C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD945019D03C3E00FED3C8 /* LaunchScreen.xib */; };
 		5BAD945E19D03C3E00FED3C8 /* LemonStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD945D19D03C3E00FED3C8 /* LemonStandTests.swift */; };
+		5BBA616A19D0E330009CD52B /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA616919D0E330009CD52B /* Supplies.swift */; };
+		5BBA616C19D0E4F3009CD52B /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA616B19D0E4F3009CD52B /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5BAD945719D03C3E00FED3C8 /* LemonStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAD945C19D03C3E00FED3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAD945D19D03C3E00FED3C8 /* LemonStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonStandTests.swift; sourceTree = "<group>"; };
+		5BBA616919D0E330009CD52B /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		5BBA616B19D0E4F3009CD52B /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 				5BAD944719D03C3E00FED3C8 /* AppDelegate.swift */,
 				5BAD944919D03C3E00FED3C8 /* ViewController.swift */,
 				5BAD944B19D03C3E00FED3C8 /* Main.storyboard */,
+				5BBA616D19D0E549009CD52B /* Models */,
 				5BAD944E19D03C3E00FED3C8 /* Images.xcassets */,
 				5BAD945019D03C3E00FED3C8 /* LaunchScreen.xib */,
 				5BAD944519D03C3E00FED3C8 /* Supporting Files */,
@@ -110,6 +115,15 @@
 				5BAD945C19D03C3E00FED3C8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BBA616D19D0E549009CD52B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA616919D0E330009CD52B /* Supplies.swift */,
+				5BBA616B19D0E4F3009CD52B /* Price.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BAD944A19D03C3E00FED3C8 /* ViewController.swift in Sources */,
+				5BBA616C19D0E4F3009CD52B /* Price.swift in Sources */,
+				5BBA616A19D0E330009CD52B /* Supplies.swift in Sources */,
 				5BAD944819D03C3E00FED3C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +423,7 @@
 				5BAD946319D03C3E00FED3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BAD946419D03C3E00FED3C8 /* Build configuration list for PBXNativeTarget "LemonStandTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				5BAD946619D03C3E00FED3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
